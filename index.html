@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="navbar">
+    <h1 class="heading">Simple NoteMaker</h1>
+</div>
+
+<div class="container">
+    <div class="note-container">
+        <h2>Appointments</h2>
+        <h5>office</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum repudiandae fuga repellat blanditiis at exercitationem nesciunt sapiente. Asperiores fugiat, deserunt, distinctio, repudiandae vero pariatur alias eum cum est amet veritatis.</p>
+        <button onclick="deleteNote(event)">Delete</button>
+    </div>
+ 
+</div>
+<div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Note</h2>
+        <form>
+            <input placeholder="Note Head" id="note-title-input">
+            <input placeholder="Sub title" id="note-sub-title-input">
+            <textarea placeholder="short description" id="note-description-input"></textarea>
+            <button id="add-note">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+
+
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js">
+        
+
+
+    </script>
+    
+</body>
+</html>
