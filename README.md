@@ -27,11 +27,12 @@ JavaScript: Used for the interactivity, including adding and deleting notes.
 Directory Structure
 Copy code
 Notemaker_With_Popup_Frontend/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+        │
+        
+        ├── index.html
+        ├── style.css
+        ├── script.js
+        └── README.md
 Contributions
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
