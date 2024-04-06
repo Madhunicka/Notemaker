@@ -28,7 +28,6 @@ Directory Structure
 Copy code
 Notemaker_With_Popup_Frontend/
         │
-        
         ├── index.html
         ├── style.css
         ├── script.js
