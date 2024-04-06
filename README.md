@@ -5,14 +5,12 @@ This simple application allows you to create and delete notes right from the fro
 Getting Started
 Clone the Repository: Start by cloning this repository to your local machine.
 
-bash
-Copy code
-git clone <repository-url>
+    git clone <repository-url>
+
+
 Navigate to the Directory: Enter into the directory of the cloned repository.
 
-bash
-Copy code
-cd Notemaker_With_Popup_Frontend
+    cd Notemaker_With_Popup_Frontend
 
 Usage
 Open the HTML File: Open the index.html file in your preferred web browser.
